@@ -23,7 +23,6 @@ def pull_arm(true_values, action, rng):
     Returns:
         float: Stochastic reward for this pull.
     """
-    # TODO: Return the arm's true value plus unit-normal noise from rng
     return true_values[action] + rng.normal()
 
 # Step 3 - sample_average_update (not yet solved)
