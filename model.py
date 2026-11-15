@@ -7,11 +7,8 @@ Assembled from your step-by-step solutions.
 import numpy as np
 
 # Step 1 - create_bandit_testbed
-import numpy as np
-
 def create_bandit_testbed(k, seed, mean=0.0, std=1.0):
     np.random.seed(seed)
-    # TODO: Build a k-armed bandit testbed with seeded normal true values.
     return np.random.normal(loc=mean, scale=std, size=k)
 
 # Step 2 - pull_arm
